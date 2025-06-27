@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Mobile-Friendly Site</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="fade-in">
+    <div class="container">
+      <h1>Responsive Design</h1>
+      <button id="themeToggle">Toggle Theme</button>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero slide-up">
+      <h2>Mobile-Friendly & Responsive</h2>
+      <p>This layout adapts beautifully across devices using media queries and clean CSS.</p>
+    </section>
+
+    <section class="content fade-in">
+      <div class="card">
+        <h3>Clean Layout</h3>
+        <p>Designed with simplicity and flexibility in mind.</p>
+      </div>
+      <div class="card">
+        <h3>Dark/Light Mode</h3>
+        <p>Switch between light and dark themes effortlessly.</p>
+      </div>
+      <div class="card">
+        <h3>Responsive Design</h3>
+        <p>Uses media queries to adapt layout on all screen sizes.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Made with 💡 by Bhagwan Arsewad</p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('themeToggle');
+    toggle.onclick = () => {
+      const html = document.documentElement;
+      html.setAttribute('data-theme', html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+    }
+  </script>
+</body>
+</html>
