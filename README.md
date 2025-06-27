@@ -1,1 +1,0 @@
-# responsive-mobile-friendly-site
