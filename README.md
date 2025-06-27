@@ -22,6 +22,8 @@ responsive-website-task4/
 ├── index.html         # Main HTML file with layout and toggle
 ├── style.css          # CSS file with responsive styles and animations
 ├── README.md          # Documentation file (this)
+```
+
 ---
 
 ## 💻 How to Run
@@ -67,4 +69,3 @@ Free to use for educational and learning purposes. ✨
 ---
 
 ✅ **Internship Task 4 Completed**: Built a responsive website using media queries and animations, complete with mobile-friendly layout and theme toggle support.
-v
